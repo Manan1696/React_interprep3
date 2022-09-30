@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import AxiosFetch from "./Components/AxiosFetch";
+import UseState from './Components/UseState';
+import UseEffect from './Components/UseEffect';
+import UseReducer from './Components/UseReducer';
+import UseMemo from './Components/UseMemo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <h1>Day-3 React Interview Questions</h1>
+   <AxiosFetch/>
+   <UseState/>
+   <UseEffect/>
+   <UseReducer/>
+   <UseMemo/>
     </div>
   );
 }
